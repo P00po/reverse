@@ -1,17 +1,5 @@
 {
-    "name": "dk/php-algo",
-    "type": "project",
-    "require": {
+    "require-dev": {
         "phpunit/phpunit": "9"
-    },
-    "license": "GPL",
-    "autoload": {
-        "psr-4": {
-            "Dk\\PhpAlgo\\": "src/"
-        },
-        "classmap": [
-            "src/",
-            "tests/"
-        ]
     }
 }
