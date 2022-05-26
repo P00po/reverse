@@ -4,6 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 use function src\reverseString;
 
+// run tests by command: ./vendor/bin/phpunit src/tests
 class ReverseStringTest extends TestCase
 {
     public static function setUpBeforeClass(): void
